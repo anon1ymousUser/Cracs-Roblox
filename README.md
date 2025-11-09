@@ -1,3 +1,1 @@
-# Cracs-Roblox
-
-Cracs is a script hub directed towards users and developers of games
+Cracs Roblox is an specificied script made for people or scripters wanting to learn features of an script hub.
