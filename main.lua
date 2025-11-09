@@ -1,7 +1,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/matas3535/gamesneeze/main/Library.lua"))()
 local lplr = game.Players.LocalPlayer
 local Window = Library:New({
-    Name = "cracs",
+    Name = "Cracs",
 })
 
 local Page = Window:Page({
