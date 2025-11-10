@@ -81,9 +81,10 @@ local antiafk = Section:Check({
 
 local reset = Section:Button({
 	Text = "Reset",
-	callback = function(value)
+	Callback = function(value)
 		if lplr and lplr.Character then
-			lplr.Character:BreakJoints()
+			lplr.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Dead)
+			lplr.Character.Humanoid.Health = 0
 		end
 	end
 })
